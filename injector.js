@@ -5,6 +5,7 @@ function loadIframe(scriptToRun) {
     const boostrap = `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     crossorigin="anonymous">`
 
+
     ifr.srcdoc = `
     <html lang="en">
     <head>
@@ -20,8 +21,8 @@ function loadIframe(scriptToRun) {
 }
 
 const sample = `
-import { h, hFragment, hString } from './framework.js'
-import { createApp } from './app.js'
+import { h, hFragment, hString, createApp } from './app.js'
+
 
 const state = { count: 0 }
 const reducers = {

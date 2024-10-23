@@ -1,4 +1,4 @@
-import { DOM_TYPES } from './framework.js'
+import { DOM_TYPES } from './app.js'
 import { setAttributes } from './attributes.js'
 import { addEventListeners } from './events.js'
 
